@@ -1,0 +1,152 @@
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #000;
+}
+.dropdown-menu>li>a{
+	color:white;
+}
+.dropdown>ul{
+	background-color: black;
+}
+.dropdown>ul>li>a:hover{
+	background-color: #666666;
+	color: white;
+}
+
+/*DROPDOWN*/
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #666666;
+    border-color: #337ab7;
+}
+/*PAGINATION*/
+.pagination>li>a, 
+.pagination>li>span{
+	color: black;
+}
+.pagination>li>a:hover, 
+.pagination>li>span:hover{
+	color: black;
+}
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover{
+	background-color: black;
+	border-color: #666666;
+}
+/*BUTTON*/
+.coffin-btn{
+	background-color: black;
+	color: white;
+}
+.coffin-btn:hover{
+	background-color: #666666;
+	color: white;
+}
+.coffin-btn-1{
+	background-color: #2f2e2e;
+	color: white;
+}
+.coffin-btn-1:hover{
+	background-color: #666666;
+	color: white;
+}
+/*NAV*/
+.coffin-nav{
+	background-color: black;
+
+}
+.coffin-brand{
+	color:white;
+	font-weight: 700;
+}
+.coffin-brand:hover{
+	color: white;
+}
+.coffin-right-nav>li>a{
+	color: white;
+}
+.coffin-right-nav>li>a:hover{
+	background-color: #666666;
+}
+.coffin-collapse{
+	color:white;
+	border-color: white;
+	background-color: white;
+}
+.icon-bar{
+	background-color:black;
+}
+
+/*HOME*/
+.product-name{
+	font-weight: 400;
+	font-size: 18px;
+	color: red;
+}
+/*CONTENT*/
+.coffin-content{
+	min-height: 600px;
+}
+/*FOOTER*/
+
+.footer {
+	background: #000000;
+	height: 100%;
+	padding-bottom: 10px;
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	min-height: 280px;
+	color: white;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #FFFFFF;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+.footer ul li a:hover{
+	color:#666666;
+	
+}
+
+.coffin-footer-border{
+	border-bottom: 1px solid #FFFFFF;
+	text-transform: uppercase;
+}
+.coffin-socmed a{
+	margin-right: 20px;
+}
